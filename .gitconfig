@@ -1,0 +1,26 @@
+[user]
+	name = yuhs
+	email = hongsong.yu2010@gmail.com
+[color]
+	ui = true
+	branch = auto
+	diff = auto
+	status = auto
+	interactive = auto
+[core]
+	quotepath = false
+	editor = vim
+[alias]
+	st = status
+	co = checkout
+	ci = commit
+	br = branch
+	pl = pull
+	ps = push
+	ca = commit -a
+  lg = log --color --graph --pretty=format:'%C(yellow)%h %C(green)[%cr](%ci) %C(blue)<%an> %C(red)%d %gs %Creset%s' --abbrev-commit --decorate
+[push]
+	default = matching
+
+[pull]
+	rebase = true
